@@ -39,9 +39,9 @@ models/*.h5
 models/*.pt
 
 # Data
-data/raw/*
-data/processed/*
-data/outputs/*
+# data/raw/*
+# data/processed/*
+# data/outputs/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/outputs/.gitkeep
