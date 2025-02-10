@@ -40,7 +40,5 @@ python main.py
 ```
 
 ## Team Members
-[Add team members here]
 
-## License
-[Add license information here]
+Haochen Li, Harshitha Rasamsetty, Dave Wang, Xiaoquan Kong
