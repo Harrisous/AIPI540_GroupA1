@@ -67,7 +67,7 @@ def train_model(dataset_path, model_dir="model"):
     label_map_path = model_dir / "label_map.npy"
     
     # Load and prepare data
-    print("Loading and preparing data...")
+    print("Loading and preparing training data...")
     features, labels, label_map = load_training_data(dataset_path)
     
     # Train Random Forest
@@ -103,5 +103,5 @@ def train_model(dataset_path, model_dir="model"):
     return svm_grid.best_estimator_, rf_grid.best_estimator_, label_map
 
 if __name__ == "__main__":
-    dataset_path = ROOT_DIR / "data/raw"
+    dataset_path = ROOT_DIR / "data/processed/train"  # 修改为使用processed/train目录
     train_model(dataset_path)
