@@ -3,3 +3,5 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.joblib filter=lfs diff=lfs merge=lfs -text
+/Users/owner/Desktop/untitled filter=lfs diff=lfs merge=lfs -text
+folder/AIPI540_GroupA1/models/deep-learning/model_scripted.pt filter=lfs diff=lfs merge=lfs -text
