@@ -18,7 +18,7 @@ python setup.py
 
 4. Run the project:
 ```bash
-python main.py
+streamlit run main.py
 ```
 
 ## Project Structure
@@ -26,7 +26,7 @@ python main.py
 ├── README.md               <- description of project and how to set up and run it
 ├── requirements.txt        <- requirements file to document dependencies
 ├── setup.py               <- script to set up project
-├── main.py                <- main script to run project
+├── main.py                <- main script to run project UI
 ├── scripts/               <- directory for pipeline scripts
 │   ├── make_dataset.py    <- script to get data
 │   ├── build_features.py  <- script to generate features
