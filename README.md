@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```bash
 python setup.py
 ```
-
+ps: there should be a model_scripted.pt in the "models" folder, but the model was too large and rejected by GitHub, so the user may want to run the deep-learning script to generate the model file before run main.py
 4. Run the project:
 ```bash
 streamlit run main.py
